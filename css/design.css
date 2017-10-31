@@ -1,0 +1,216 @@
+/* GRUPO NORDESTE - DISEÑO POR ANDREI DEMETER */
+
+
+
+body {
+    background-color: #DCDCDC;
+}/* */
+
+/* HEADER */
+    
+    header{
+        max-height: 100px;
+        height: 100px;
+        clear: both;
+        background: rgba(255, 255, 255, 1);
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(242, 243, 244, 1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(242, 243, 244, 1)));
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(242, 243, 244, 1) 100%);
+        background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(242, 243, 244, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(242, 243, 244, 1) 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(242, 243, 244, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f3f4', GradientType=0);
+    }
+
+    header .contenedorLogo{
+        float: left;
+        clear: left;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    header .contenedorLogo img{
+        float: left;
+    }
+
+    header .contenedorLogo h2.tituloLogo{   
+        float: left;
+        color: #e3b914;        
+    }
+
+    header ul{
+        float: right;
+        margin-top: 22px;
+        margin-right: 20px;        
+    }
+
+    header ul li{
+        float: left;
+        list-style: none;
+        margin-right: 10px;      
+    }
+
+    header ul li a{
+        padding: 15px;
+        display: block;
+        text-transform: uppercase;
+        color: #212f3d;
+        font-size: 16px;
+        text-decoration: none;   
+        transition:all 0.6s ease;
+    }
+
+    header ul li a:hover{
+        color: #e3b914;
+        text-decoration: none;
+    }
+
+    header ul li a.activo{
+        color: #e3b914;
+    }
+
+
+/* FIN ENCABEZADO */
+
+
+
+/* SLIDER CONFIG */
+
+.carousel-inner {
+    height: 500px;
+}
+
+
+
+/* INICIO SECCIÓN SERVICIOS */
+
+    .imgserv {
+       padding-top: 50px;
+       
+    }
+    .txtserv {
+        padding-top: 30px;
+        text-align: justify;
+        font-family: 'Karma', serif;
+        font-size: 16px;
+    }
+    .titserv {
+        font-family: 'Fjalla One', sans-serif
+    }
+    .servbox {
+        background-color: #D3D3D3;
+    }
+
+/* FIN DE SERVICIOS*/
+
+/* FOOTER*/
+
+    footer {
+        height: 100px;
+        background: rgba(132, 139, 143, 1);
+        background: -moz-linear-gradient(left, rgba(132, 139, 143, 1) 0%, rgba(95, 102, 107, 1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(132, 139, 143, 1)), color-stop(100%, rgba(95, 102, 107, 1)));
+        background: -webkit-linear-gradient(left, rgba(132, 139, 143, 1) 0%, rgba(95, 102, 107, 1) 100%);
+        background: -o-linear-gradient(left, rgba(132, 139, 143, 1) 0%, rgba(95, 102, 107, 1) 100%);
+        background: -ms-linear-gradient(left, rgba(132, 139, 143, 1) 0%, rgba(95, 102, 107, 1) 100%);
+        background: linear-gradient(to right, rgba(132, 139, 143, 1) 0%, rgba(95, 102, 107, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#848b8f', endColorstr='#5f666b', GradientType=1);
+    }
+ 
+    .fa {
+        margin-top: 35px;
+        margin-left: 10px;
+        color: black;
+    }
+
+
+    footer div div .linkedin :hover {
+        color: #0e76a8;
+    }
+    footer div div .facebook :hover {
+        color: #3b5998;
+    }
+    footer div div .twitter :hover {
+        color: #00aced;
+    }
+   
+
+/* FIN DE FOOTER*/
+/* GN CONTACTO */
+#contactoGN{
+    
+}
+#contactoGN div{
+    padding-top: 30px;
+    
+}
+#contactoGN div h6 {
+    font-size: 20px;
+}
+
+
+/* FIN GN CONTACTO */
+/* SECCION CONOCENOS */
+.subtitle{
+    margin: auto 0;
+}
+.txtcontainer{
+    margin: 40px 0px 30px 0;
+    padding-right: 60px;
+}
+.txtcon{
+    text-align: justify;
+    font-family: 'Karma', serif;
+    font-size:16px;
+}
+.txtcita{
+    font-family: 'Dancing Script', cursive;
+    color: #FFA500;
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+/* FIN CONOCENOS*/
+/* FORMULARIO*/
+#formGN{
+    width:420px;
+    height:380px;
+    background-color: #D3D3D3;
+        border: #a49e9e;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+.barra80{
+    width: 96%;
+    height: 10%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+textarea{
+    width:96%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+#btnenviar{
+    width: 50%;
+    margin: 6% 25%;
+    height: 10%;
+}
+}
+/*FIN DE FORMULARIO*/
+
+
+/* ESTILOS GENERICOS */
+    
+    h1,h2,h3,h4,h5,h6,header ul li a{
+        font-family: 'Francois One', sans-serif;
+    }
+iframe{
+    margin-bottom: 30px;
+}
